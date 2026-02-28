@@ -1,0 +1,1 @@
+*/10 * * * * cd /Users/sany/.openclaw/workspace && /bin/bash scripts/zoe/monitor.sh >> zoe/logs/cron.log 2>&1
