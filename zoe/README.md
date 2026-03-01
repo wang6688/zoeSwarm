@@ -30,6 +30,12 @@ bash scripts/zoe/monitor.sh
 (crontab -l 2>/dev/null; cat cron/zoe_monitor.cron) | crontab -
 ```
 
+## Quick environment self-check
+```bash
+bash scripts/zoe/selfcheck.sh
+```
+
+
 ## Notes
 - Codex model is pinned to `gpt-5.3-codex`
 - Reasoning effort is set to `high`
